@@ -39,7 +39,7 @@ if documents_loader is not None:
         tmf.write(documents_loader.read())
         tmf_path = tmf.name
     loader = PDFMinerLoader(tmf_path)
-
+    st.sidebar.success("File Uploaded.")
     # For additional structured extraction (tables, elements)
     unstructured_loader = UnstructuredPDFLoader(
         tmf_path,
@@ -104,5 +104,6 @@ if documents_loader is not None:
             # visualize_data(response)
 
             st.session_state.messages.append(AIMessage(response))
+
 
 
