@@ -64,14 +64,9 @@ A smart chatbot built with LangChain, Groq, and Streamlit that analyzes financia
 ## Example Questions
 
 ### For Tables and Lists
-- "What are the top 10 holdings in the portfolio?"
-- "List all sector allocations with percentages"
-- "Show fund performance across different time periods"
-
-### For Calculations and Analysis
-- "Calculate the CAGR for the last 3 years"
-- "Compare this fund's returns with benchmark returns"
-- "Analyze the risk-adjusted returns"
+- "List top 5 holdings of the Consumption Fund with weights"
+- "Compare the allocation between equity and debt"
+- "State the YTM, Macaulay Duration and Average Maturity for the Money Market Fund"
 
 ## Technical Details
 
@@ -126,4 +121,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - LangChain for the RAG framework
 - Groq for the LLM API
 - Streamlit for the web interface
+
 - The open-source community for various tools and libraries
