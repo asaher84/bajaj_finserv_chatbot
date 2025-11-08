@@ -86,7 +86,7 @@ if documents_loader is not None:
 
     })
     
-    llm = ChatGroq(api_key="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",model = "openai/gpt-oss-120b", temperature=0) #type:ignore
+    llm = ChatGroq(api_key="",model = "openai/gpt-oss-120b", temperature=0) #type:ignore
 
     chain = parallel | prompt | llm | StrOutputParser()
 
@@ -104,6 +104,7 @@ if documents_loader is not None:
             # visualize_data(response)
 
             st.session_state.messages.append(AIMessage(response))
+
 
 
 
