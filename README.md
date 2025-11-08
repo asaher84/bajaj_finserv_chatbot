@@ -112,9 +112,6 @@ To extend the chatbot's capabilities:
    - Implement comparative analysis
    - Add historical data tracking
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
@@ -123,3 +120,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Streamlit for the web interface
 
 - The open-source community for various tools and libraries
+
